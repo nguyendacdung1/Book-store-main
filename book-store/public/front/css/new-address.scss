@@ -1,0 +1,51 @@
+#new-address{
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    .row-1{
+        display: flex;
+        gap: 12px;
+        input{
+            width: 50%;
+        }
+    }
+    .row-2{
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+        input{
+            transform: translateY(1px);
+            margin-right: 4px;
+        }
+    }
+    .info-item{
+        font-size: 16px;
+        margin-bottom: 12px;
+        height: 46px;
+        border-radius: 4px;
+        border: 1px solid #000;
+    }
+    .info-item:focus{
+        outline: 1px solid #187498;
+    }
+    input{
+        padding: 0 12px;
+    }
+    select{
+        padding: 0 8px;
+    }
+    button{
+        padding: 8px;
+    }
+    #address{
+        height: 120px;
+        padding: 12px 12px;
+        resize: none;
+    }
+    label{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+}

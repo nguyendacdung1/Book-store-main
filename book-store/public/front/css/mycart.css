@@ -1,0 +1,142 @@
+.mycart {
+  margin-top: 24px;
+}
+
+.mycart-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mycart-title h1 {
+  display: flex;
+  border-bottom: 6px solid #187498;
+  line-height: 60px;
+}
+.mycart-title h1 span + span {
+  margin-left: 6px;
+}
+.mycart-title a {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 16px;
+  color: #187498;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #187498;
+  padding: 0px 16px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.mycart-content {
+  margin-top: 40px;
+}
+.mycart-content table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+.mycart-content table tr:nth-child(1) {
+  border-bottom: 1px solid #000;
+}
+.mycart-content table th {
+  padding: 12px 0;
+}
+.mycart-content table .tr-product th, .mycart-content table .tr-foot th {
+  padding: 20px 0;
+  vertical-align: middle;
+}
+.mycart-content table .th-qty, .mycart-content table .th-price {
+  text-align: center;
+}
+.mycart-content table .th-total {
+  text-align: right;
+}
+.mycart-content table .tfoot-total, .mycart-content table .tfoot-qty {
+  border-top: 2px solid #000;
+}
+.mycart-content table .tfoot-total {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
+}
+.mycart-content .row-product-item {
+  display: flex;
+  align-items: center;
+}
+.mycart-content .row-product-item img {
+  margin-right: 40px;
+  width: 60px;
+  height: 78px;
+}
+.mycart-content .row-product-item a {
+  text-decoration: none;
+  color: #000;
+}
+.mycart-content .control-qty {
+  margin-left: 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0 24px;
+  justify-content: center;
+}
+.mycart-content .btn-control {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  background-color: #ccc;
+  outline: none;
+  border-radius: 50%;
+  border: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mycart-content .control-remove {
+  border: none;
+  background-color: transparent;
+}
+.mycart-content .save-qty {
+  display: none;
+}
+
+.mycart-footer {
+  margin-bottom: 200px;
+  margin-top: 12px;
+  justify-content: end;
+  display: flex;
+}
+.mycart-footer a {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 16px;
+  color: #187498;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #187498;
+  padding: 0px 16px;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.mycart-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mycart-title .back-link {
+  font-weight: bold;
+  color: #187498;
+  text-decoration: none;
+  border: 1px solid #187498;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+/*# sourceMappingURL=mycart.css.map */

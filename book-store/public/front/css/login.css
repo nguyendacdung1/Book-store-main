@@ -1,0 +1,135 @@
+.login-register{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.wrap-login{
+    top: -250px;
+    opacity: 0;
+    position: relative;
+    border-radius: 10px;
+    padding: 24px;
+    color: #000;
+    text-align: center;
+    background-color: #fff;
+    width: 600px;
+    max-width: calc(  100% - 20px);
+}
+.wrap-register{
+    display: none;
+    top: -250px;
+    opacity: 0;
+    position: relative;
+    border-radius: 10px;
+    padding: 24px;
+    color: #000;
+    text-align: center;
+    background-color: #fff;
+    width: 600px;
+    max-width: calc(  100% - 20px);
+}
+.login-gg{
+    text-decoration: none;
+    color: #000;
+    margin-top: 12px;
+    border: 1px #EDEDED solid;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: 400;
+}
+.login-gg svg{
+    margin-right: 4px;
+    display: inherit;
+}
+.wrap-login p{
+    text-decoration: none;
+    font-weight: 400;
+    color: #000;
+    margin: 24px 0;
+}
+.wrap-login p a{
+    text-decoration: none;
+    font-weight: 400;
+}
+.or{
+    margin-top: 24px;
+    position: relative;
+    display: block;
+    font-weight: 400;
+}
+.or::after{
+    position: absolute;
+    content: '';
+    background-color: #ccc;
+    height: 1px;
+    width: calc( 50% - 10px );
+    top: 50%;
+    transform: translate(16px,-50%);
+}
+.or::before{
+    position: absolute;
+    content: '';
+    background-color: #ccc;
+    height: 1px;
+    width: calc( 50% - 10px );
+    top: 50%;
+    left: 0;
+    transform: translate(-16px,-50%);
+}
+.form-login{
+    margin-top: 20px;
+    text-align: center;
+}
+.form-login input{
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    outline: none;
+    border:1px solid #ccc;
+    font-weight: 400;
+}
+.forgot-pw{
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+}
+.btn-submit{
+    margin-top: 24px;
+    background-color: #4285F4;
+    color: #fff;
+    padding: 8px 42px;
+}
+.btn-submit:hover{
+    background-color: #4285F4 !important;
+    color: #fff !important;
+}
+.btn-close-m{
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    outline: none !important;
+    border: none!important;
+}
+.btn-close-m i{
+    font-size: 24px;
+}
+.show-register,.show-login{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 400;
+
+}
+.wrap-register p{
+    text-decoration: none;
+    font-weight: 400;
+    color: #000;
+    margin: 24px 0;
+}

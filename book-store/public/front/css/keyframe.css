@@ -1,0 +1,161 @@
+.active{
+    background-color: #e8f0fe;
+    border: none;
+}
+.show{
+    display: block;
+    opacity: 1;
+    animation: fadeInFromNone .5s ease-in-out;
+}
+
+.hide{
+    display: none;
+    opacity: 0;
+    animation: hide 0.5s ease-in-out;
+}
+
+.border{
+    border: 1px solid #000 !important;
+}
+
+.show-input{
+    display: block !important;
+    animation: showInput 0.6s ease-in-out;
+    width: 80%;
+}
+.hide-input{
+    animation: hideInput 0.4s ease-in-out;
+    width: 0px;
+}
+
+.slide-down{ 
+    transition: all 0.4s ease-in-out;
+}
+
+.slide-hide{
+    height: 0 !important;
+    transition: all 0.4s ease-in-out;
+}
+
+.fixed{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    background-color: #fff;
+    animation: opacity 1s ease-in-out;
+}
+
+.d-flex-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.rotate-180{
+    transform: rotate(-180deg);
+}
+
+.flip-default{
+    width: auto !important;
+    margin: 0 !important;
+    z-index: 1;
+}
+
+
+body::-webkit-scrollbar{
+    display: none;
+}
+::-webkit-scrollbar {
+    margin-left: 2px;
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:horizontal{
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+@keyframes opacity {
+    0% { opacity :0}
+    100% { opacity :1}
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@keyframes showInput {
+    0%{
+        display: none;
+        width: 0;
+    }1%{
+        display: block;
+    }
+    80%{
+        width: 100%;
+    }100% {
+        width: 80%;
+    }
+}
+
+@keyframes hideInput {
+    0%{
+        width: 80%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+@keyframes slideShow {
+    0%{
+        display: none;
+        height: 0;
+    }1%{
+        display: block;
+    }
+    80%{
+        height: 100%;
+    }100% {
+        height: 80%;
+    }
+}
+
+@keyframes hide {
+    0%{
+        opacity: 1;
+        display: block;
+    }100% {
+        opacity: 0;
+        display: none;
+    }
+}

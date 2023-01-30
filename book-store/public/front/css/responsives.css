@@ -1,0 +1,100 @@
+
+
+@media (max-width: 991px) {
+    .category-product-bottom{
+        margin-top: 20px;
+    }
+    .header-banner{
+        margin-top: 40px;
+    }
+    .header-navbar .list-link{
+        display: none;
+    }
+    .products{
+        justify-content: space-around;
+    }
+    .header-logo img{
+        width: 64px;
+    }
+    .category-product{
+        grid-template-columns: none;
+    }
+    .category-product-bottom{
+        margin-left: 0 !important;
+    }
+
+    .checkout {
+        grid-template-columns: auto;
+    }
+    .offset-1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+
+    }
+
+}
+
+@media (max-width: 575px) {
+    .menu-wrap .menu-content-layout{
+        width: 360px;
+    }
+    .menu-options,.product-search{
+        width: 300px;
+    }
+    .header button,.header-select-showcart{
+        width: 36px;
+        height: 36px;
+    }
+    .header-select-search svg{
+        width: 16px;
+    }
+    .menu-btn{
+        zoom: 0.8;
+    }
+    .category-product .list-product-title h1{
+        font-size: 32px;
+    }
+    .list-address{
+        grid-template-columns: 1fr;
+        padding: 0 12px;
+    }
+    .add-address{
+        padding: 12px;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .category-product .list-product{
+        grid-template-columns: auto auto auto;
+    }
+    .products{
+        grid-template-columns: auto auto auto;
+    }
+}
+@media (min-width: 768px) {
+    .category-product .list-product{
+        grid-template-columns: auto auto auto;
+    }
+    .products{
+        grid-template-columns: auto auto auto auto
+    }
+}
+@media (min-width: 992px) {
+    .category-product .list-product{
+        grid-template-columns: auto auto auto auto;
+    }
+    .products{
+        grid-template-columns: auto auto auto auto auto
+    }
+}
+
+@media (min-width: 1200px) {
+    .category-product .list-product{
+        grid-template-columns: auto auto auto auto auto;
+    }
+    .products{
+        grid-template-columns: auto auto auto auto auto auto
+    }
+}
+

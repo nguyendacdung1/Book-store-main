@@ -1,0 +1,18 @@
+.order-item{
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 24%) 0px 0px 6px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.order-item+.order-item{
+    margin-top: 40px;
+}
+
+.select-options-order{
+    select{
+        margin-bottom: 40px;
+        font-size: 16px;
+        padding: 4px;
+    }
+}
